@@ -1,5 +1,6 @@
 ---
   layout: home
+  title: pkgMatcher
 ---
 ## What is pkgMatcher
 
