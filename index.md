@@ -35,3 +35,7 @@ pkgMatcher's analyzer and server will be written in Rust.
 - [ ] Analyze all available repositories
 - [ ] Finish server
 - [ ] Create API
+
+## Contact
+
+To get more information about the project, please contact me by [email](mailto:ivabus@ivabus.dev) or [Matrix](https://matrix.to/#/@ivabus:matrix.org)
