@@ -12,7 +12,7 @@ On the server side, repo_analyzer will collect data about files in packages in a
 
 Example: `kwindowsystem` in ArchLinux corresponds to `libkf5windowsystem` and `libkf5windowsystem-dev` in Debian or `kf5-kwindowsystem` and `kf5-kwindowsystem-devel` in Fedora.
 
-After a request from the user in (package:repo(distribution)) form the server will respond with a (package:repo) list for each corresponding package or, if the request was in the form (package:repo:target_repo), the response will be in the form (package).
+After a request from the user in `(package:repo(distribution))` form the server will respond with a `(package:repo)` list for each corresponding package or, if the request was in the form `(package:repo:target_repo)`, the response will be in the form `(package)`.
 
 ## Technical information
 
