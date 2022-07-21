@@ -35,6 +35,7 @@ pkgMatcher's analyzer and server will be written in Rust.
 - [ ] Analyze all available repositories
 - [ ] Finish server
 - [ ] Create API
+- [ ] Create pkgmatcher CLI client
 
 ## Contact
 
