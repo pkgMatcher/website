@@ -39,7 +39,7 @@ pkgMatcher's analyzer and server will be written in Rust.
 
 ### After 05.2023
 
-- [ ] Made pkgmatcher crate usable library for other projects
+- [ ] Made pkgmatcher crate usable (or create new crate) as library for other projects
 ## Contact
 
 To get more information about the project, please contact me by [email](mailto:ivabus@ivabus.dev) or [Matrix](https://matrix.to/#/@ivabus:matrix.org)
