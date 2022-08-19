@@ -18,7 +18,7 @@ After a request from the user in `(package:repo(distribution))` form the server 
 
 pkgMatcher's analyzer and server will be written in Rust.
 
-## Roadmap
+## Roadmap [![wakatime](https://wakatime.com/badge/user/5bc5e3b6-e1d8-4d29-9245-34bc2ad32313/project/26a013f9-e009-4e02-beef-1a668ba76291.svg)](https://wakatime.com/badge/user/5bc5e3b6-e1d8-4d29-9245-34bc2ad32313/project/26a013f9-e009-4e02-beef-1a668ba76291)
 
 ### Before 09.2022
 
