@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <meta charset="utf-8">
+        <title>pkgMatcher</title>
+        <meta property="og:title" content="pkgMatcher">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:description" content="pkgMatcher matches packages beetween linux distros">
+        <meta property="og:url" content="http://pkgmatcher.dev/">
+        <meta property="og:site_name" content="website">
+        <meta property="og:type" content="website">
+        <link rel="icon" href="/assets/img/logo.svg">
+    </head>
+    <body>
+        <header>
+            <img class="logo_in_header" type="image/svg+xml" src="/assets/img/logo.svg"/>
+            <a href="/">
+                <h1 class="header">pkgMatcher</h1>
+            </a>
+            <nav class="header">
+                <a class="header desktop" href="https://github.com/pkgMatcher">GitHub</a>
+                <a class="header desktop" href="/roadmap.html">Roadmap</a>
+            </nav>
+        </header>
+            
+        <content>
+
+			<h2>What is pkgMatcher</h2>
+			<p>pkgMatcher is service, that helps you find matching packages between repositories.</p>
+			
+			<h2>How it will work</h2>
+			<p>On the server side, repo_analyzer will collect data about files in packages in available repositories. After collecting the data, repo_analyzer will match the packages that have the corresponding files.</p>
+			<p>Example: <code>kwindowsystem</code> in ArchLinux corresponds to <code>libkf5windowsystem</code> and <code>libkf5windowsystem-dev</code> in Debian or <code>kf5-kwindowsystem</code> and <code>kf5-kwindowsystem-devel</code> in Fedora.</p>
+			<p>After a request from the user in <code>(package:repo(distribution))</code> form the server will respond with a <code>(package:repo)</code> list for each corresponding package or, if the request was in the form <code>(package:repo:target_repo)</code>, the response will be in the form <code>(package)</code>.</p>
+			
+			<h2 id="technical-information">Technical information</h2>
+			<p>pkgMatcher’s analyzer and server will be written in Rust.</p>
+			
+			<h2 id="contact">Contact</h2>
+			<p>To get more information about the project, please contact me by <a href="mailto:ivabus@ivabus.dev">email</a> or <a href="https://matrix.to/#/@ivabus:matrix.org">Matrix</a></p>
+			
+        </content>
+        <footer>
+                <p class="footer">by ivabus</p>
+        </footer>
+        </div>
+    </body>
+</html>
